@@ -145,11 +145,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CaixaDeDialogo.cpp" />
+    <ClCompile Include="InicioDespachador.cpp" />
     <ClCompile Include="Janela4.cpp" />
     <ClCompile Include="MyForm.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CaixaDeDialogo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="InicioDespachador.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Janela4.h">
