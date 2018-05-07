@@ -24,6 +24,24 @@
     <ClCompile Include="CaixaDeDialogo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RegionalMR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegionalMF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegionalMH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FinanceiroMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoBuraco.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fatura.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
@@ -35,12 +53,33 @@
     <ClInclude Include="CaixaDeDialogo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="RegionalMR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RegionalMF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RegionalMH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FinanceiroMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoBuraco.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fatura.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MyForm.resx">
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
     <EmbeddedResource Include="Janela4.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CaixaDeDialogo.resx">
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
   </ItemGroup>
