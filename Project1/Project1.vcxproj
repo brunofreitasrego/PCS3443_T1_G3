@@ -145,12 +145,19 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CaixaDeDialogo.cpp" />
+    <ClCompile Include="FinanceiroMain.cpp" />
     <ClCompile Include="InicioDespachador.cpp" />
     <ClCompile Include="Janela4.cpp" />
     <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="RegionalMF.cpp" />
+    <ClCompile Include="RegionalMH.cpp" />
+    <ClCompile Include="RegionalMR.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CaixaDeDialogo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="FinanceiroMain.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="InicioDespachador.h">
@@ -160,6 +167,15 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RegionalMF.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RegionalMH.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RegionalMR.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
