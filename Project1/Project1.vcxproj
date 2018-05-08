@@ -144,12 +144,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="atendente.cpp" />
     <ClCompile Include="CaixaDeDialogo.cpp" />
     <ClCompile Include="InicioDespachador.cpp" />
     <ClCompile Include="Janela4.cpp" />
     <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="registrarburaco.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="atendente.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="CaixaDeDialogo.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -162,6 +167,9 @@
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="registrarburaco.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\dados\dados.vcxproj">
@@ -169,6 +177,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="atendente.resx">
+      <DependentUpon>atendente.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CaixaDeDialogo.resx">
       <DependentUpon>CaixaDeDialogo.h</DependentUpon>
     </EmbeddedResource>
@@ -177,6 +188,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registrarburaco.resx">
+      <DependentUpon>registrarburaco.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
