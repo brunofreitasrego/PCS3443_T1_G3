@@ -1,4 +1,6 @@
 #pragma once
+#include "TeamChefExitsList.h"
+#include "CloseOsForm.h"
 
 namespace Project1 {
 
@@ -90,8 +92,12 @@ namespace Project1 {
 		}
 #pragma endregion
 	private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
+		TeamChefExitsList^ exitsList = gcnew TeamChefExitsList();
+		exitsList->ShowDialog();
 	}
 	private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
+		CloseOSForm^ closeOsForm = gcnew CloseOSForm();
+		closeOsForm->ShowDialog();
 	}
 	private: System::Void MyForm1_Load(System::Object^  sender, System::EventArgs^  e) {
 	}

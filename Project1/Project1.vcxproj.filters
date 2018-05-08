@@ -24,10 +24,10 @@
     <ClCompile Include="CaixaDeDialogo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MyForm1.cpp">
+    <ClCompile Include="TeamChefExitsList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MyForm11.cpp">
+    <ClCompile Include="CloseOSForm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -44,7 +44,10 @@
     <ClInclude Include="TeamChefMainForm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MyForm11.h">
+    <ClInclude Include="TeamChefExitsList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CloseOSForm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -56,6 +59,15 @@
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
     <EmbeddedResource Include="CaixaDeDialogo.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeamChefMainForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeamChefExitsList.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CloseOSForm.resx">
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
   </ItemGroup>
