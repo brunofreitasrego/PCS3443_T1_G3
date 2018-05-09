@@ -12,12 +12,12 @@ namespace Project1 {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Summary for MyForm1
+	/// Summary for TeamChefMainForm
 	/// </summary>
-	public ref class MyForm1 : public System::Windows::Forms::Form
+	public ref class TeamChefMainForm : public System::Windows::Forms::Form
 	{
 	public:
-		MyForm1(void)
+		TeamChefMainForm(void)
 		{
 			InitializeComponent();
 			//
@@ -29,7 +29,7 @@ namespace Project1 {
 		/// <summary>
 		/// Clean up any resources being used.
 		/// </summary>
-		~MyForm1()
+		~TeamChefMainForm()
 		{
 			if (components)
 			{
@@ -65,7 +65,7 @@ namespace Project1 {
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"Ver as Saídas";
 			this->button1->UseVisualStyleBackColor = true;
-			this->button1->Click += gcnew System::EventHandler(this, &MyForm1::button1_Click);
+			this->button1->Click += gcnew System::EventHandler(this, &TeamChefMainForm::button1_Click);
 			// 
 			// button2
 			// 
@@ -75,18 +75,18 @@ namespace Project1 {
 			this->button2->TabIndex = 1;
 			this->button2->Text = L"Finalisar uma OS";
 			this->button2->UseVisualStyleBackColor = true;
-			this->button2->Click += gcnew System::EventHandler(this, &MyForm1::button2_Click);
+			this->button2->Click += gcnew System::EventHandler(this, &TeamChefMainForm::button2_Click);
 			// 
-			// MyForm1
+			// TeamChefMainForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(284, 196);
 			this->Controls->Add(this->button2);
 			this->Controls->Add(this->button1);
-			this->Name = L"MyForm1";
+			this->Name = L"TeamChefMainForm";
 			this->Text = L"Menu do Chefe da Equipe";
-			this->Load += gcnew System::EventHandler(this, &MyForm1::MyForm1_Load);
+			this->Load += gcnew System::EventHandler(this, &TeamChefMainForm::TeamChefMainForm_Load);
 			this->ResumeLayout(false);
 
 		}
@@ -99,7 +99,7 @@ namespace Project1 {
 		CloseOSForm^ closeOsForm = gcnew CloseOSForm();
 		closeOsForm->ShowDialog();
 	}
-	private: System::Void MyForm1_Load(System::Object^  sender, System::EventArgs^  e) {
+	private: System::Void TeamChefMainForm_Load(System::Object^  sender, System::EventArgs^  e) {
 	}
 	};
 }

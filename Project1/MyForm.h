@@ -2,6 +2,7 @@
 #include <iostream>
 #include "Janela4.h"
 #include "CaixaDeDialogo.h"
+#include "TeamChefMainForm.h"
 
 /*
 Referência: http://www.visualcplusdotnet.com/visualcplusdotnet21.html
@@ -176,6 +177,7 @@ namespace Project1 {
 			this->menuStrip1->Size = System::Drawing::Size(317, 24);
 			this->menuStrip1->TabIndex = 12;
 			this->menuStrip1->Text = L"menuStrip1";
+			this->menuStrip1->ItemClicked += gcnew System::Windows::Forms::ToolStripItemClickedEventHandler(this, &MyForm::menuStrip1_ItemClicked);
 			// 
 			// menuToolStripMenuItem
 			// 
@@ -225,6 +227,7 @@ namespace Project1 {
 			this->MainMenuStrip = this->menuStrip1;
 			this->Name = L"MyForm";
 			this->Text = L"Aplicação CLR usando C++";
+			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->menuStrip1->ResumeLayout(false);
 			this->menuStrip1->PerformLayout();
 			this->ResumeLayout(false);
@@ -256,6 +259,11 @@ private: System::Void bt_validar_Click(System::Object^  sender, System::EventArg
 		this->tb_mensagem->AppendText("\r\nCampo de Senha Vazio");
 		tb_senha->BackColor = System::Drawing::Color::Yellow;
 	}
+	else if (this->tb_senha->Text == "c" && this->tb_login->Text == "c") {
+		TeamChefMainForm^ caixa = gcnew TeamChefMainForm();
+		caixa->ShowDialog();
+	}
+	
 }
 private: System::Void bt_janela2_Click(System::Object^  sender, System::EventArgs^  e) {
 }
@@ -282,6 +290,10 @@ private: System::Void exCaixaDeDialogoToolStripMenuItem_Click(System::Object^  s
 		this->tb_mensagem->AppendText("\r\n" + caixa->Telefone);
 	}
 
+}
+private: System::Void menuStrip1_ItemClicked(System::Object^  sender, System::Windows::Forms::ToolStripItemClickedEventArgs^  e) {
+}
+private: System::Void MyForm_Load(System::Object^  sender, System::EventArgs^  e) {
 }
 };
 }
