@@ -104,12 +104,13 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <LanguageStandard>stdcpp14</LanguageStandard>
+      <AdditionalIncludeDirectories>D:\pcs3443\mysql-connector-c++-8.0.11-windows-x86-64bit\include\jdbc;D:\pcs3443\boost_1_67_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>mysqlcppconn.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Windows</SubSystem>
       <EntryPointSymbol>main</EntryPointSymbol>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\pcs3443\mysql-connector-c++-8.0.11-windows-x86-64bit\lib64\vs14;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -145,10 +146,32 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="atendente.cpp" />
+    <ClCompile Include="BuracoDAO.cpp" />
     <ClCompile Include="CaixaDeDialogo.cpp" />
+    <ClCompile Include="classesUML\Assessor.cpp" />
+    <ClCompile Include="classesUML\Association_OS_Equip.cpp" />
+    <ClCompile Include="classesUML\Association__OS_Materiais.cpp" />
+    <ClCompile Include="classesUML\Buraco.cpp" />
+    <ClCompile Include="classesUML\Chefe_de_Equipe.cpp" />
+    <ClCompile Include="classesUML\Cidadão.cpp" />
+    <ClCompile Include="classesUML\DashboardDesp.cpp" />
+    <ClCompile Include="classesUML\Despachador.cpp" />
+    <ClCompile Include="classesUML\Equipamento.cpp" />
+    <ClCompile Include="classesUML\Equipe.cpp" />
+    <ClCompile Include="classesUML\Financeiro.cpp" />
+    <ClCompile Include="classesUML\Foto.cpp" />
+    <ClCompile Include="classesUML\Materiais.cpp" />
+    <ClCompile Include="classesUML\Notificação.cpp" />
+    <ClCompile Include="classesUML\Ordem_de_Saída.cpp" />
+    <ClCompile Include="classesUML\Ordem_de_Serviço.cpp" />
+    <ClCompile Include="classesUML\Regional.cpp" />
+    <ClCompile Include="classesUML\Região.cpp" />
+    <ClCompile Include="classesUML\Tela.cpp" />
+    <ClCompile Include="classesUML\Usuário.cpp" />
     <ClCompile Include="CloseOSForm.cpp" />
     <ClCompile Include="confirmacao.cpp" />
     <ClCompile Include="ConfirmacaoOSS.cpp" />
+    <ClCompile Include="Controller_Atendente.cpp" />
     <ClCompile Include="FinanceiroMain.cpp" />
     <ClCompile Include="InfoBuraco.cpp" />
     <ClCompile Include="Janela4.cpp" />
@@ -156,6 +179,7 @@
     <ClCompile Include="InicioDespachador.cpp" />
     <ClCompile Include="ObrasMarcadas.cpp" />
     <ClCompile Include="ObrasPendentes.cpp" />
+    <ClCompile Include="OSDAO.cpp" />
     <ClCompile Include="RegionalMF.cpp" />
     <ClCompile Include="RegionalMH.cpp" />
     <ClCompile Include="RegionalMR.cpp" />
@@ -168,9 +192,30 @@
     <ClInclude Include="atendente.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="BuracoDAO.h" />
     <ClInclude Include="CaixaDeDialogo.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="classesUML\Assessor.h" />
+    <ClInclude Include="classesUML\Association_OS_Equip.h" />
+    <ClInclude Include="classesUML\Association__OS_Materiais.h" />
+    <ClInclude Include="classesUML\Buraco.h" />
+    <ClInclude Include="classesUML\Chefe_de_Equipe.h" />
+    <ClInclude Include="classesUML\Cidadão.h" />
+    <ClInclude Include="classesUML\DashboardDesp.h" />
+    <ClInclude Include="classesUML\Despachador.h" />
+    <ClInclude Include="classesUML\Equipamento.h" />
+    <ClInclude Include="classesUML\Equipe.h" />
+    <ClInclude Include="classesUML\Financeiro.h" />
+    <ClInclude Include="classesUML\Foto.h" />
+    <ClInclude Include="classesUML\Materiais.h" />
+    <ClInclude Include="classesUML\Notificação.h" />
+    <ClInclude Include="classesUML\Ordem_de_Saída.h" />
+    <ClInclude Include="classesUML\Ordem_de_Serviço.h" />
+    <ClInclude Include="classesUML\Regional.h" />
+    <ClInclude Include="classesUML\Região.h" />
+    <ClInclude Include="classesUML\Tela.h" />
+    <ClInclude Include="classesUML\Usuário.h" />
     <ClInclude Include="CloseOSForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -180,6 +225,7 @@
     <ClInclude Include="ConfirmacaoOSS.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Controller_Atendente.h" />
     <ClInclude Include="FinanceiroMain.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -201,6 +247,7 @@
     <ClInclude Include="ObrasPendentes.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="OSDAO.h" />
     <ClInclude Include="RegionalMF.h">
       <FileType>CppForm</FileType>
     </ClInclude>

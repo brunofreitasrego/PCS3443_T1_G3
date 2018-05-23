@@ -72,6 +72,75 @@
     <ClCompile Include="RegionalMR.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="classesUML\Assessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classesUML\Association__OS_Materiais.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classesUML\Association_OS_Equip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classesUML\Buraco.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classesUML\Chefe_de_Equipe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classesUML\Cidadão.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classesUML\DashboardDesp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classesUML\Despachador.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classesUML\Equipamento.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classesUML\Equipe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classesUML\Financeiro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classesUML\Foto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classesUML\Materiais.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classesUML\Notificação.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classesUML\Ordem_de_Saída.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classesUML\Ordem_de_Serviço.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classesUML\Região.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classesUML\Regional.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classesUML\Tela.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classesUML\Usuário.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller_Atendente.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OSDAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BuracoDAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
@@ -131,6 +200,75 @@
     <ClInclude Include="RegionalMR.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="classesUML\Assessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classesUML\Association__OS_Materiais.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classesUML\Association_OS_Equip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classesUML\Buraco.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classesUML\Chefe_de_Equipe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classesUML\Cidadão.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classesUML\DashboardDesp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classesUML\Despachador.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classesUML\Equipamento.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classesUML\Equipe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classesUML\Financeiro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classesUML\Foto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classesUML\Materiais.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classesUML\Notificação.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classesUML\Ordem_de_Saída.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classesUML\Ordem_de_Serviço.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classesUML\Região.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classesUML\Regional.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classesUML\Tela.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classesUML\Usuário.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller_Atendente.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OSDAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BuracoDAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MyForm.resx">
@@ -179,6 +317,15 @@
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
     <EmbeddedResource Include="TeamChefMainForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinanceiroMain.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoBuraco.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegionalMH.resx">
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
   </ItemGroup>

@@ -239,6 +239,8 @@ namespace Project1 {
 	private: System::Void registrarburaco_Load(System::Object^  sender, System::EventArgs^  e) {
 	}
 	private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
+
+
 		confirmacao^ caixa = gcnew confirmacao();
 		caixa->ShowDialog();
 	}
