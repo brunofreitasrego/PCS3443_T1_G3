@@ -145,12 +145,23 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CaixaDeDialogo.cpp" />
+    <ClCompile Include="FinanceiroMain.cpp" />
+    <ClCompile Include="InfoBuraco.cpp" />
     <ClCompile Include="InicioDespachador.cpp" />
     <ClCompile Include="Janela4.cpp" />
     <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="RegionalMF.cpp" />
+    <ClCompile Include="RegionalMH.cpp" />
+    <ClCompile Include="RegionalMR.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CaixaDeDialogo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="FinanceiroMain.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="InfoBuraco.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="InicioDespachador.h">
@@ -160,6 +171,15 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RegionalMF.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RegionalMH.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RegionalMR.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
@@ -172,11 +192,23 @@
     <EmbeddedResource Include="CaixaDeDialogo.resx">
       <DependentUpon>CaixaDeDialogo.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FinanceiroMain.resx">
+      <DependentUpon>FinanceiroMain.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Janela4.resx">
       <DependentUpon>Janela4.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegionalMF.resx">
+      <DependentUpon>RegionalMF.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegionalMH.resx">
+      <DependentUpon>RegionalMH.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegionalMR.resx">
+      <DependentUpon>RegionalMR.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
